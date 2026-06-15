@@ -1,3 +1,3 @@
 # Aire Santiago: air Quality & Urban Density Explorer
 
-_REAME to be completed after the analysis
+_README to be completed after the analysis
