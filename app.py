@@ -115,13 +115,13 @@ with tab1:
     ))
 
     if not compare_mode:
-    df_exceeds = df_filtered[df_filtered['exceeds_norm'] == True]
-    fig1.add_trace(go.Scatter(
-        x=df_exceeds['date'],
-        y=df_exceeds['pm25_mean'],
-        mode='markers',
-        name='Exceeds norm',
-        marker=dict(color='#f4a261', size=5, opacity=0.8)
+        df_exceeds = df_filtered[df_filtered['exceeds_norm'] == True]
+        fig1.add_trace(go.Scatter(
+            x=df_exceeds['date'],
+            y=df_exceeds['pm25_mean'],
+            mode='markers',
+            name='Exceeds norm',
+            marker=dict(color='#f4a261', size=5, opacity=0.8)
     ))
 
     if compare_mode:
