@@ -39,7 +39,7 @@ and presenting the results in an interactive three-tab dashboard.
   monitoring stations (2020–2025), Ministerio del Medio Ambiente, Chile.
 
 ## Project structure
-\`\`\`
+```
 portfolio-airquality-santiago/
 ├── notebooks/
 │ ├── 01_ingest.ipynb # Load and combine SINCA CSV files
@@ -51,7 +51,7 @@ portfolio-airquality-santiago/
 ├── figures/ # Saved chart images
 ├── app.py # Streamlit dashboard
 └── requirements.txt
-\`\`\`
+```
 
 ## How to run locally
 
